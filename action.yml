@@ -24,4 +24,4 @@ outputs:
     description: Status code reported by EasyMark
 runs:
   using: node12
-  main: index.js
+  main: dist/index.js

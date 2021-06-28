@@ -1,6 +1,6 @@
 {
   "name": "easymark-testbed-action",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An GitHub Action to automatically submit the repository to EasyMark for automated testing.",
   "repository": "https://github.com/profiluefter/easymark-testbed-action",
   "author": "profiluefter",
