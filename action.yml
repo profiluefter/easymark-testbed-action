@@ -1,0 +1,27 @@
+name: Easymark Testbed Submission
+author: profiluefter
+description: An GitHub Action to automatically submit the repository to EasyMark for automated testing.
+inputs:
+  easymark-instance:
+    description: Base URL of the EasyMark instance to use
+    required: true
+  easymark-token:
+    description: Access token to EasyMark
+    required: true
+  task-id:
+    description: ID of the task
+    required: true
+  directory:
+    description: Directory to submit
+    required: false
+    default: ./
+  timeout:
+    description: Maximum number of status updates
+    required: false
+    default: "30"
+outputs:
+  status:
+    description: Status code reported by EasyMark
+runs:
+  using: node12
+  main: index.js

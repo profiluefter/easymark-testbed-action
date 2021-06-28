@@ -1,0 +1,17 @@
+{
+  "name": "easymark-testbed-action",
+  "version": "0.1.0",
+  "description": "An GitHub Action to automatically submit the repository to EasyMark for automated testing.",
+  "repository": "https://github.com/profiluefter/easymark-testbed-action",
+  "author": "profiluefter",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@actions/core": "^1.4.0",
+    "adm-zip": "^0.5.5",
+    "axios": "^0.21.1",
+    "form-data": "^4.0.0",
+    "node-html-parser": "^3.3.6",
+    "set-cookie-parser": "^2.4.8"
+  }
+}
